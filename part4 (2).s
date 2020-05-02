@@ -1,4 +1,4 @@
-// Timer/Stopwatch that counts in seconds and tens of milliseconds. Wraps around from 59:99 to 00:00. any key to pause
+// Stopwatch that counts in seconds and tens of milliseconds. Wraps around from 59:99 to 00:00. any key to pause
 	.text
 	.global _start
 
