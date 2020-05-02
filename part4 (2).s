@@ -105,4 +105,4 @@ DELAYCOUNT: .word 2000000 // 0.01 s
 RESETCODE: .word   0b11111111 //reset the edgecapture register by writing 1 to it
 BITCODE: .byte   0b00111111, 0b00000110, 0b01011011, 0b01001111,  0b01100110, 0b01101101, 0b01111101, 0b00000111, 0b01111111, 0b01100111, 0b0000000
          .skip   2      // pad with 2 bytes to maintain word alignment
-	 .end	
+	 .end	 
